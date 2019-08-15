@@ -22,12 +22,3 @@ spring:
         show_sql: true
         format_sql: true
         dialect: org.hibernate.dialect.MySQL5Dialect
-# logging
-logging:
-  file:
-    max-history: 5
-    max-size: 5MB
-  level:
-    com.app: DEBUG
-    root: info
-  path: /log/Mylog.log
